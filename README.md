@@ -1,4 +1,4 @@
-# 🛡️ Automating Threat Detection & Response with SOAR & EDR
+# 🛡️Automating Threat Detection & Response with SOAR & EDR
 
 ## 📌 Overview  
 
