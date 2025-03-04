@@ -266,16 +266,34 @@ forwarding to automate responses and enhance security operations.
 
 # 📖 Automated Security Response: LimaCharlie & Tines Playbook  
 
+---
+
+
 ## 🛠️ Playbook Overview  
 I have successfully built an **automated security response playbook** in **Tines**, following the previously designed playbook diagram.  
 
 ### 🔄 Workflow Overview  
 When **a detection is received**, the playbook will:  
+
+![image](https://github.com/user-attachments/assets/a4ab26e3-5657-42e5-95d4-8207c05aa823)
 1️⃣ **Send an email alert**.  
+
+![image](https://github.com/user-attachments/assets/859e3856-e649-4f07-b675-68f33959c45b)
 2️⃣ **Post a notification to the `#alerts` channel** in Slack.  
-3️⃣ **Prompt the user** to decide if the affected machine should be isolated.  
-4️⃣ If the user selects **"Yes"**, the machine is **automatically isolated** from the network.  
+
+
+![image](https://github.com/user-attachments/assets/f72e3789-c526-4828-89e7-6a10d74d5669) 
+
+3️⃣ **Prompt the user** to decide if the affected machine should be isolated. 
+
+4️⃣ If the user selects **"Yes"**, the machine is **automatically isolated** from the network. 
+
+
+![image](https://github.com/user-attachments/assets/2e5e2583-3196-43bb-8167-22062da645df)
+
 5️⃣ A **confirmation message** with machine details is sent to **Slack**.  
+
+![image](https://github.com/user-attachments/assets/41a46a5f-6210-4f5c-8b17-b64151a9c968)
 6️⃣ The isolation status can be verified in **LimaCharlie**.  
 
 ---
